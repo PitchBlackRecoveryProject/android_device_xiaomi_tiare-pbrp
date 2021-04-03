@@ -82,6 +82,3 @@ TW_USE_TOOLBOX := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
-
-# TORCH
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
