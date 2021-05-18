@@ -14,10 +14,7 @@
 # limitations under the License.
 #
 
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
-$(call inherit-product, device/xiaomi/tiarefull_tiare.mk)
+$(call inherit-product, device/xiaomi/tiare/full_tiare.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
