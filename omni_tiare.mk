@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/tiare/full_tiare.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Allow missing dependenciea
 ALLOW_MISSING_DEPENDENCIES=true
