@@ -89,3 +89,8 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
+
+# Exclude Nano & Bash
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_BASH := true
+
