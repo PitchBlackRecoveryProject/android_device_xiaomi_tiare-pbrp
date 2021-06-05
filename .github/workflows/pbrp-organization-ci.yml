@@ -24,6 +24,7 @@ env:
   SFPassword: ${{ secrets.SFPassword }}
   SFUserName: ${{ secrets.SFUserName }}
   #TARGET: "define this if your target is not recoveryimage"
+  EXTRA_CMD: "rm -rf bootable/recovery && git clone https://github.com/PitchBlackRecoveryDevices/android_bootable_recovery -b android-9.0 bootable/recovery"
 
 jobs:
   PBRP_CI:
